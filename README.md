@@ -1,7 +1,7 @@
 # orderManagement
 A simple Order Management System
 ##Creation of Customers
-● Customers can create orders. For simplicity, once an order is created, thats final.
+- Customers can create orders. For simplicity, once an order is created, thats final.
 There is no order status like created, payment done, completed etc. It is
 assumed that customer has already made the payment while creating the order.
 ● Customers are categorized as regular, gold, platinum
