@@ -7,8 +7,8 @@ const jwt = require("jsonwebtoken")
 
 const createCustomers = async(req,res)=>{
     try {
-       let data = req.body
-    if(Object.keys(data).length===0) return res.status(400).send({status:false,message:"Provide details for create ypur profile"})
+    let data = req.body
+    if(Object.keys(data).length===0) return res.status(400).send({status:false,message:"Provide details for creating your profile"})
     let {name,lname,phone,email, password, ...rest} = data
     if(Object.keys(rest).length>0) return res.status(400).send({status:false,message:"invalid details"})
     if(!name) return res.status(400).send({status:false,message:"name is required"})
