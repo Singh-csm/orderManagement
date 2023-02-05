@@ -1,6 +1,6 @@
-# orderManagement
-A simple Order Management System
-#Creation of Customers
+# 🔖orderManagement 
+## 📌 A simple Order Management System
+### ♻️Creation of Customers
 - Customers can create orders. For simplicity, once an order is created, thats final.
 There is no order status like created, payment done, completed etc. It is
 assumed that customer has already made the payment while creating the order.
@@ -17,3 +17,5 @@ application. We need to keep track of how much discount is given to which
 customer and for which order, so that customers can claim money back later.
 - It is not mandatory to implement any other entities which are not mentioned here,
 like products or payments etc.
+.....
+# Thank you!💚
