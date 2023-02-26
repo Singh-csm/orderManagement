@@ -35,7 +35,7 @@ const createCustomers = async(req,res)=>{
 
     let createCustomer = await customerModel.create(createCustomerData)
 
-    return res.status(201).send({status:false,message:"Success",data:createCustomer})
+    return res.status(201).send({status:true,message:"Success",data:createCustomer})
     } catch (error) {
         return res.status(500).send({status:false,message:error.message})
     }
